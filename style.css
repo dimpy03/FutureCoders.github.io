@@ -1,0 +1,266 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: math;
+}
+
+
+body::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7) url('logo1.jpg') no-repeat center center/cover;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    background-blend-mode: darken;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#857f7f;
+    position: sticky;
+    cursor: pointer;
+    top: 0px;
+}
+
+#logo img{
+    width: 45%;
+    margin: 2px 25px;
+    border-radius: 150px;
+    height: 55px;
+    border: 2px solid dimgrey;
+}
+
+.navlist{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navlist li{
+    margin: 5px 20px;
+    padding: 2px 3px;
+}
+
+.navlist li a{
+    color: white;
+    font-size: 2.6vh;
+}
+
+.navlist li a:hover{
+    color: rgb(160, 154, 154);
+}
+
+#search{
+    border: 2px solid grey;
+    font-size: 13px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.rightnavbar{
+    margin: 4px 15px;
+    display: flex;
+}
+
+.btn{
+    border: 2px solid black;
+    padding: 5px 8px;
+    border-radius: 15px;
+}
+
+.burger{
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    left: 92%;
+    display: none;
+}
+
+.line{
+width: 33px;
+background-color: white;
+height: 4px;
+margin: 3px 3px;
+
+}
+
+#home{
+    height: 92vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-half{
+    display: flex;
+    align-items: center;
+    width: 62%;
+}
+
+.homepage h2{
+    color: white;
+    font-size: 2.8vw;
+    margin-bottom: 6px;
+}
+
+.homepage p{
+    color: white;
+    font-size: 1.5vw;
+    display: flex;
+    line-height: 24px;
+    margin-bottom: 13px;
+}
+
+.btnsubscribe{
+    border: 1px solid grey;
+    padding: 6px 12px;
+    border-radius: 14px;
+    background-color: transparent;
+    color: white;
+    font-size: 1.1vw;
+    cursor: pointer;
+}
+
+.btnsubscribe:hover{
+    background-color: grey;
+    transition:all 0.7s ease-in-out;
+}
+
+.btnvideo{
+    border: 2px solid grey;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color: transparent;
+    color: white;
+    font-size: 1.1vw;
+    cursor: pointer;
+}
+
+.btnvideo:hover{
+    background-color: grey;
+    transition:all 0.7s ease-in-out;
+}
+
+
+.second-half{
+    margin: 2px 50px;
+}
+
+.second-half img{
+    width: 110%;
+    height: 105px;
+    margin-top: -50px;
+    border: 2px solid dimgrey;
+    border-radius: 150px;
+}
+
+.first-tag{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin: 18px auto;
+}
+
+.abouttag{
+    padding: 10px 34px;
+}
+
+.abouttag h5{
+    font-size: 2.2vw;
+    line-height: 45px;
+    margin-bottom: 7px;
+}
+
+.abouttag p{
+    color: darkslategrey;
+    line-height: 24px;
+    font-size: 2.4vh;
+}
+
+.first-img{
+padding: 10px;;
+}
+
+.first-img img{
+    width: 16vw;
+    margin: 2px;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+
+.second-tag{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin: 18px auto;
+}
+
+.third-tag{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin: 18px auto;
+}
+
+#contact{
+    height: 613px;
+    background-color: #bab9b9;
+}
+
+.text-contact{
+    text-align: center;
+    font-size: 3.5vh;
+    padding: 15px 2px;
+}
+
+.form{
+    margin:  40px auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 55vw;
+}
+
+.form-input{
+    border: 2px solid dimgrey;
+    padding: 8px 2px;
+    margin: 11px 2px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.btncontact{
+    font-size: 1.2vw;
+    width: 10vw;
+    padding: 5px 2px;
+    margin: 5px auto;
+    border: 2px solid dimgrey;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+#footer{
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #585353;
+}
+
+#footer p{
+    text-align: center;
+    font-size: 15px;
+    color: wheat;
+}

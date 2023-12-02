@@ -1,0 +1,115 @@
+@media only screen and (max-width: 1200px){
+    .navbar{
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+        height: 400px;
+    }
+    #logo {
+        display: flex;
+        justify-content: center;
+    }
+    #logo img {
+        margin-bottom: 16px;
+    }
+
+    .navlist{
+        margin-left: 0px;
+        flex-direction: column;
+    }
+    .navlist li {
+        margin: 14px 8px;
+    }
+    .navlist li a {
+        color: white;
+        font-size: 3vh;
+    }
+    .rightnavbar {
+        margin: 4px 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #search {
+        border: 2px solid grey;
+        font-size: 13px;
+        padding: 5px;
+        border-radius: 15px;
+        width: 100%;
+    }
+    .btn {
+        border: 2px solid black;
+        padding: 5px 8px;
+        border-radius: 15px;
+        width: 50%;
+        margin-top: 8px;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 70px;
+    }
+    .v-class-resp{
+        visibility: hidden;
+    }
+    #home {
+        flex-direction: column-reverse;
+    }
+    .first-half {
+        width: 79%;
+        flex-direction: column-reverse;
+    }
+    .homepage h2 {
+        font-size: 4vh;
+        margin-bottom: 19px;
+        margin-top: 25px;
+    }
+    .homepage p {
+        font-size: 2.5vw;
+        line-height: 31px;
+        margin-bottom: 29px;
+    }
+    .btnsubscribe {
+        font-size: 2.3vh;
+    }
+    .btnvideo {
+        font-size: 2.3vh;
+    }
+    .second-half img {
+        width: 69%;
+        height: 125px;
+    }
+   
+    .first-tag {
+        width:99%;
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+    .abouttag h5 {
+        font-size: 4.5vh;
+        line-height: 49px;
+        margin-bottom: 19px;
+    }
+    .abouttag p {
+        line-height: 30px;
+    }
+    .first-img img {
+        width: 35vw;
+    }
+    .second-tag {
+        flex-direction: column-reverse; 
+        width: 99%;
+        text-align: center;
+    }
+    .third-tag {
+        width: 99%;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .btncontact{
+        width: 18vw;
+        font-size: 3vw;
+    }
+}
